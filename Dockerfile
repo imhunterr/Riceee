@@ -3,9 +3,10 @@
 # traced server files, not the whole node_modules tree.
 
 FROM node:24-bookworm-slim AS base
-# Prisma's query engine links against OpenSSL
+# Prisma's query engine links against OpenSSL; Coolify's healthcheck runs curl
+# inside the container
 RUN apt-get update \
- && apt-get install -y --no-install-recommends openssl ca-certificates \
+ && apt-get install -y --no-install-recommends openssl ca-certificates curl \
  && rm -rf /var/lib/apt/lists/*
 ENV NEXT_TELEMETRY_DISABLED=1
 
