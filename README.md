@@ -10,7 +10,7 @@ journal built around answering those three well.
 
 Built solo — product, schema, backend, UI.
 
-**Stack:** Next.js 16 · React 19 · PostgreSQL (Neon) + Prisma · Clerk · Pusher · Google Gemini · Cloudflare R2 · Arcjet · Tailwind · deployed on Railway.
+**Stack:** Next.js 16 · React 19 · PostgreSQL + Prisma · Clerk · Pusher · Google Gemini · Cloudflare R2 · Arcjet · Tailwind · self-hosted with Docker on a VPS via Coolify.
 
 ---
 
