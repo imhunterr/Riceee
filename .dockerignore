@@ -1,0 +1,14 @@
+.git
+.next
+node_modules
+.env*
+!.env.example
+.vscode
+Riceee_ai
+scratch
+.venv
+venv
+*.safetensors
+Dockerfile
+.dockerignore
+README.md
